@@ -13,7 +13,7 @@ def random_color():
 
 
 if __name__ == "__main__":
-    ndarray = np.random.random_sample((10, 3))
+    ndarray = np.random.random_sample((100, 3))
     print(ndarray)
 
     fig = plt.figure()
